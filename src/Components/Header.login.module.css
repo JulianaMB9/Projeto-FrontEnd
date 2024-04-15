@@ -1,0 +1,79 @@
+header {
+  padding: 0.5rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(255, 194, 204);
+}
+
+esp{
+    width: 2px;
+}
+
+
+
+.headerlogo img {
+  width: 80px;
+  height: auto;
+  margin-left: 0.5rem;
+  
+}
+
+.headerlogo h2 {
+  padding-top: 6px;
+  color: rgb(75, 0, 130);
+  font-weight: bold;
+}
+
+
+.headerlogo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+
+.ent{
+    display: flex;
+    margin-right: 40px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.ent img{
+    width: 50px;
+}
+
+.ent  a {
+    text-decoration: none;
+    color:salmon;
+    font-weight: bolder;
+}
+
+.ent button{
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+    width: 100px;
+    
+}
+.ent button:hover{
+    box-shadow: 5px 5px 10px salmon;    
+}
+.ent a:hover{
+   
+    color:salmon;
+    
+}
+
+@media screen and (max-width: 600px) {
+  .footer div {
+    max-width: none; 
+  }
+  .footer p, .footer h1 {
+    text-align: left; /* Altera o alinhamento do texto para a esquerda em telas menores */
+  }
+}
+
+
+

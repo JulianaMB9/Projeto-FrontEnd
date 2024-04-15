@@ -1,0 +1,90 @@
+.container {
+  background-color: #261132;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.pontuacao {
+  display: flex;
+  min-height: 200px;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoPerguntas {
+  width: 100%;
+  position: relative;
+}
+
+.contagemPerguntas {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.contagemPerguntas span {
+  font-size: 28px;
+}
+
+.pergunta {
+  margin-bottom: 12px;
+}
+
+.grupoResposta {
+  display: flex;
+  flex: 1 1 200px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.resposta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.Botao {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ba5c12;
+  border-radius: 8px;
+  padding: 8px;
+  border: 3px solid #3e2f5b;
+  cursor: pointer;
+  margin: 0 12px 10px;
+}
+
+.Botao:hover {
+  background-color: #261132;
+}
+
+.Botao {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #079509;
+  border-radius: 8px;
+  padding: 8px;
+  border: 3px solid #3e2f5b;
+  cursor: pointer;
+  margin: 0 12px 10px;
+}
+
+.Botao:hover {
+  background-color: #8b42b4;
+}

@@ -1,0 +1,9 @@
+.main3 {
+  background-color: rgb(75, 0, 130);
+  padding: 50px;
+  text-align: center;
+  color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
