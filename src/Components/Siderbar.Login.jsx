@@ -6,7 +6,7 @@ function SidebarLogin() {
     <div className={style.sidebar}>
       <img src={student} className={style.movendoimagem} />
     
-      <h3> Olá <br /> Cadatre-se Grátis</h3> 
+      <h3> Olá <br /> Cadastre-se Grátis</h3> 
       
     </div>
   );
