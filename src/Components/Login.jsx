@@ -102,7 +102,7 @@ const Login = () => {
   
         <Link to="/menu"> 
           <button className={style.button}
-            disabled={!nome || !telefone || !email}
+            disabled={!nome || !telefone || !email || !senha}
             onClick={handleStartLogin}
           >
             Cadrastrar
